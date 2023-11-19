@@ -1,0 +1,63 @@
+*{
+    font-family: 'Fraunces', serif;
+}
+
+body {
+    background: rgb(73, 71, 167);
+}
+
+
+.resultados {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+  
+  /* Estilo para las imágenes dentro del contenedor */
+.resultados img {
+    width: 100%;
+    height: 100%; 
+    border: 5px solid #000;
+    box-sizing: border-box;
+}
+
+/* Estilo para la busqueda */
+.termino {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(228, 228, 84);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+/* Estilo para el boton de enviar */
+.buscador {
+    background-color: #52b19c;
+    color: #020202;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* cambia el color del boton cuando se coloca el mouse sobre el */
+  .buscador:hover {
+    background-color: #0056b3;
+  }
+  
+/* Estilo para el titulo h1 */
+h1 {
+    width: 1300px;
+    font-size: 36px;
+    color: rgb(12, 214, 204);
+    background-color: rgb(228, 228, 84);
+    display: inline-block;
+    padding: 10px;
+    -webkit-text-stroke: 2px solid black;
+    border: 2px solid #000;
+    border-radius: 5px;
+  }
+  
